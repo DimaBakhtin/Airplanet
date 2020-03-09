@@ -1,0 +1,95 @@
+.tariff__icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    background-color: #5972b1;
+    border-radius: 50%;
+    margin-bottom: 28px;
+
+    position: relative;
+}
+
+.tariff__icon:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tariff__icon--flower:before {
+    background-image: url(../../images/main_page-images/tarrifs-icons/flower.png);
+}
+
+.tariff__icon--star:before {
+    background-image: url(../../images/main_page-images/tarrifs-icons/mark-as-favorite-star.png);
+}
+
+.tariff__icon--palette:before {
+    background-image: url(../../images/main_page-images/tarrifs-icons/painter-palette.png);
+}
+
+.tariff__subtitle {
+    color: #262626;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 18px;
+}
+
+.tariff__desc {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.tariff__desc-list {
+    text-align: left;
+    padding-left: 28px;
+    margin-bottom: 22px;
+}
+
+.tariff__desc-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.tariff__desc-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.tariff__desc-item:before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    background-color: #262424;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+
+.tariff__desc, .tariff__desc-list {
+    color: #262424;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tariff__price span {
+    font-size: 34px;
+}
+
+.tariff__price {
+    color: #262626;
+    font-size: 54px;
+    font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.tariffs {
+    margin-bottom: 94px;
+}
+
+.tariffs__title {
+    margin-bottom: 64px;
+}
+
+.tarrifs__list  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tariffs__item {
+    width: calc((100% - 119px) / 3);
+    text-align: center;
+    margin-right: 16px;
+}
