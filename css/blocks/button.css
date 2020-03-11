@@ -1,0 +1,30 @@
+.button {
+    padding: 15px 19px 14px 18px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    background-color: #5972b1;
+    border-radius: 5px;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.button:after {
+    content: "";
+    height: 16px;
+    width: 16px;
+    background-image: url("../../images/team_page-images/btn-icon.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #5972b1;
+}

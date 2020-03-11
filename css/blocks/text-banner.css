@@ -1,0 +1,28 @@
+.text-banner {
+    background-color: #76b46f;
+    margin-bottom: 64px;
+}
+
+.text-banner__img {
+    background-image: url("../../images/reviews_page-images/pattern.png");
+    min-width: 1043px;
+    min-height: 170px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-banner__text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 623px;
+}
+
+.text-banner__text  span {
+    font-weight: 700;
+    text-decoration: underline;
+}
